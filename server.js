@@ -11,8 +11,8 @@ const taskSchema = require('./graphql/TaskSchema').TaskSchema;
 
 //mongodb+srv://bauhause:bau0099@cluster0-79kmu.mongodb.net/test?retryWrites=true&w=majority
 
-//mongoose.connect("mongodb://bautest:bau0099@ds233288.mlab.com:33288/graphql", { useUnifiedTopology: true, useNewUrlParser: true }
-mongoose.connect("mongodb+srv://bauhause:bau0099@cluster0-79kmu.mongodb.net/test?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true }
+mongoose.connect("mongodb://bautest:bau0099@ds233288.mlab.com:33288/graphql", { useUnifiedTopology: true, useNewUrlParser: true }
+//mongoose.connect("mongodb+srv://bauhause:bau0099@cluster0-79kmu.mongodb.net/test?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true }
     , (err) => {
         if (err) throw err;
         console.log("connected to mongo atlas")

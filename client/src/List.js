@@ -116,7 +116,7 @@ class List extends Component {
                   <button
                     href=""
                     className="btn btn-secondary mr-1"
-                    disabled={this.state.editDisabled}
+                    //disabled={this.state.editDisabled}
                     onClick={this.onEdit.bind(this, item.id, item.title)}
                   >
                     Edit
